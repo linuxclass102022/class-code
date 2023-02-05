@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Welcome to linux2022 devops class"
+echo "Congratulations, you graduated with jobs"
+echo "You are now millionaires"
+mkdir billions 
+touch billions/millionaires  
+echo "hello" >> billions/millionaires  
+
