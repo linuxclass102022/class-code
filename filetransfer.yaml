@@ -1,0 +1,15 @@
+--- 
+  - name: ftp server
+    hosts: myservers
+    become: yes
+    become_user: root
+    remote_user: aagounkeng
+    tasks:
+      - name: ensure ftp is at the latest version
+        yum:
+          name: vsftpd
+          state: latest
+      - name: ensure vsftp is running
+        service:
+          name: vsftpd
+          state: started
