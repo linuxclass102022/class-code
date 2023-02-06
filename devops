@@ -4,5 +4,6 @@ echo "Congratulations, you graduated with jobs"
 echo "You are now millionaires"
 mkdir billions 
 touch billions/millionaires  
-echo "hello" >> billions/millionaires  
+echo "hello" >> billions/millionaires 
+print(hello)
 
