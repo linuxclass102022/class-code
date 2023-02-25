@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo " what is your name?"
+read "PERSON"
+echo "hey $PERSON, nice to meet you"
+echo "how old are you?"
+read "AGE"
+echo "where do you live?"
+read "CITY"
+echo "$CITY is a nice city!"
+echo "let me get someone to help you, nice meeting you!"
+echo "it was a pleasure talking to you $PERSON"
+echo "what are you doing for living"
+read "PROFESSION"
+echo "$PROFESSION is a growing profession, many people tend to move into it"
